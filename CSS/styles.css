@@ -22,10 +22,24 @@
   --fs-700: clamp(2rem, 10vw - 0.5rem, 3.25rem);
 }
 
+html {
+  color-scheme: dark;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--clr-primary-700);
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-base);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
 }
 
 img {
